@@ -42,18 +42,20 @@
     "vue"
   ],
   "cSpell.words": [
+    "'quvchilar",
     "Composables",
     "Customizer",
     "destr",
     "flagpack",
     "Iconify",
+    "nuxt",
+    "o",
     "ofetch",
     "psudo",
     "stylelint",
     "touchless",
     "triggerer",
-    "vuetify",
-    "nuxt"
+    "vuetify"
   ],
   "commentAnchors.tags.anchors": {
     "ℹ️": {

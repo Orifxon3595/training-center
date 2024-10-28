@@ -5,8 +5,13 @@ export default [
     icon: { icon: 'bx-home-alt' },
   },
   {
-    title: 'Second page',
-    to: { name: 'second-page' },
-    icon: { icon: 'bx-file-blank' },
+    title: 'Students',
+    to: 'apps-students',
+    icon: { icon: 'bx-user' },
+  },
+  {
+    title: 'Cours and Groups',
+    to: 'apps-cours-and-group',
+    icon: { icon: 'bx-book-reader' },
   },
 ]
