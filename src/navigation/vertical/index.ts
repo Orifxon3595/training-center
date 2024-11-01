@@ -14,4 +14,17 @@ export default [
     to: 'apps-cours-and-group',
     icon: { icon: 'bx-book-reader' },
   },
+  {
+    title: 'Ecommerce',
+    icon: { icon: 'bx-cart-alt' },
+    children: [
+      {
+        title: 'Customer',
+        children: [
+          { title: 'List', to: 'apps-ecommerce-customer-list' },
+          { title: 'Details', to: { name: 'apps-ecommerce-customer-details-id', params: { id: 478426 } } },
+        ],
+      },
+    ],
+  },
 ]

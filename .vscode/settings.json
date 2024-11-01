@@ -93,5 +93,6 @@
         "borderStyle": "solid"
       }
     ]
-  }
+  },
+  "i18n-ally.localesPaths": []
 }
