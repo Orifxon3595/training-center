@@ -102,7 +102,7 @@ const totalCustomers = computed(() => customerData.value.total)
             </VAvatar>
             <div class="d-flex flex-column">
               <RouterLink
-                :to="{ name: 'apps-ecommerce-customer-details-id', params: { id: item.customerId } }"
+                :to="{ name: 'apps-students-id', params: { id: item.customerId } }"
                 class="text-link font-weight-medium d-inline-block"
                 style="line-height: 1.375rem;"
               >

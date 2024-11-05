@@ -10,21 +10,17 @@ export default [
     icon: { icon: 'bx-user' },
   },
   {
-    title: 'Cours and Groups',
-    to: 'apps-cours-and-group',
+    title: 'Dasturlar',
     icon: { icon: 'bx-book-reader' },
-  },
-  {
-    title: 'Ecommerce',
-    icon: { icon: 'bx-cart-alt' },
     children: [
       {
-        title: 'Customer',
-        children: [
-          { title: 'List', to: 'apps-ecommerce-customer-list' },
-          { title: 'Details', to: { name: 'apps-ecommerce-customer-details-id', params: { id: 478426 } } },
-        ],
+        title: 'Kurslar',
+        to: 'apps-programs-cours'
       },
-    ],
+      {
+        title: 'Guruhlar',
+        to: 'apps-programs-groups'
+      }
+    ]
   },
 ]

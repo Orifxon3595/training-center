@@ -20,14 +20,11 @@ declare module 'vue-router/auto-routes' {
   export interface RouteNamedMap {
     'root': RouteRecordInfo<'root', '/', Record<never, never>, Record<never, never>>,
     '$error': RouteRecordInfo<'$error', '/:error(.*)', { error: ParamValue<true> }, { error: ParamValue<false> }>,
-    'apps-id': RouteRecordInfo<'apps-id', '/apps/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
     'apps-cours-and-group': RouteRecordInfo<'apps-cours-and-group', '/apps/cours-and-group', Record<never, never>, Record<never, never>>,
-    'apps-ecommerce-customer-details-id': RouteRecordInfo<'apps-ecommerce-customer-details-id', '/apps/ecommerce/customer/details/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
-    'apps-ecommerce-customer-list': RouteRecordInfo<'apps-ecommerce-customer-list', '/apps/ecommerce/customer/list', Record<never, never>, Record<never, never>>,
-    'apps-ecommerce-manage-review': RouteRecordInfo<'apps-ecommerce-manage-review', '/apps/ecommerce/manage-review', Record<never, never>, Record<never, never>>,
-    'apps-ecommerce-referrals': RouteRecordInfo<'apps-ecommerce-referrals', '/apps/ecommerce/referrals', Record<never, never>, Record<never, never>>,
-    'apps-ecommerce-settings': RouteRecordInfo<'apps-ecommerce-settings', '/apps/ecommerce/settings', Record<never, never>, Record<never, never>>,
+    'apps-programs-cours': RouteRecordInfo<'apps-programs-cours', '/apps/programs/cours', Record<never, never>, Record<never, never>>,
+    'apps-programs-groups': RouteRecordInfo<'apps-programs-groups', '/apps/programs/groups', Record<never, never>, Record<never, never>>,
     'apps-students': RouteRecordInfo<'apps-students', '/apps/students', Record<never, never>, Record<never, never>>,
+    'apps-students-id': RouteRecordInfo<'apps-students-id', '/apps/students/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
     'login': RouteRecordInfo<'login', '/login', Record<never, never>, Record<never, never>>,
   }
 }
