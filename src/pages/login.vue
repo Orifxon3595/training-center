@@ -63,10 +63,10 @@ const isPasswordVisible = ref(false)
       >
         <VCardText>
           <h4 class="text-h4 mb-1">
-            Welcome to <span class="text-capitalize">{{ themeConfig.app.title }}</span>! 👋🏻
+            <span class="text-capitalize">{{ themeConfig.app.title }}</span> xush kelibsiz! 👋🏻
           </h4>
           <p class="mb-0">
-            Please sign-in to your account and start the adventure
+            Iltimos, hisobingizga kiring va maroqli ishni boshlang
           </p>
         </VCardText>
         <VCardText>
@@ -77,9 +77,9 @@ const isPasswordVisible = ref(false)
                 <AppTextField
                   v-model="form.email"
                   autofocus
-                  label="Email or Username"
+                  label="Foydalanuvchi nomi"
                   type="email"
-                  placeholder="johndoe@email.com"
+                  placeholder="Falonchi"
                 />
               </VCol>
 
@@ -87,7 +87,7 @@ const isPasswordVisible = ref(false)
               <VCol cols="12">
                 <AppTextField
                   v-model="form.password"
-                  label="Password"
+                  label="Parol"
                   placeholder="············"
                   :type="isPasswordVisible ? 'text' : 'password'"
                   :append-inner-icon="isPasswordVisible ? 'bx-hide' : 'bx-show'"
@@ -97,7 +97,7 @@ const isPasswordVisible = ref(false)
                 <div class="d-flex align-center flex-wrap justify-space-between my-6">
                   <VCheckbox
                     v-model="form.remember"
-                    label="Remember me"
+                    label="Meni eslab qoling"
                   />
                   <a
                     class="text-primary"
@@ -111,34 +111,14 @@ const isPasswordVisible = ref(false)
                   block
                   type="submit"
                 >
-                  Login
+                  Tizimga kirish
                 </VBtn>
               </VCol>
 
               <!-- create account -->
-              <VCol
-                cols="12"
-                class="text-body-1 text-center"
-              >
-                <span class="d-inline-block">
-                  New on our platform?
-                </span>
-                <a
-                  class="text-primary ms-1 d-inline-block text-body-1"
-                  href="javascript:void(0)"
-                >
-                  Create an account
-                </a>
-              </VCol>
-
-              <VCol
-                cols="12"
-                class="d-flex align-center"
-              >
-                <VDivider />
-                <span class="mx-4">or</span>
-                <VDivider />
-              </VCol>
+              <!-- 
+                
+               -->
 
               <!-- auth providers -->
               <VCol
